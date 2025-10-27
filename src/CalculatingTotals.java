@@ -1,7 +1,7 @@
 /**
  * For Loops Practice Problem
  *
- * @author Your Name
+ * @author Anand Sidhu
  */
 public class CalculatingTotals extends ConsoleProgram {
     @Override
@@ -15,6 +15,7 @@ public class CalculatingTotals extends ConsoleProgram {
     
         for (int counter = 1; counter <= n; counter++) {
             sum += counter;
+            System.out.println(sum);
             
         }
 
