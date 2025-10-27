@@ -1,7 +1,7 @@
 /**
  * For Loops Practice Problem
  *
- * @author Your Name
+ * @author Anand Sidhu
  */
 public class ConversionTables extends ConsoleProgram {
     @Override
