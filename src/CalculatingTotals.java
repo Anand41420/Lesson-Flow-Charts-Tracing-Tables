@@ -14,9 +14,11 @@ public class CalculatingTotals extends ConsoleProgram {
 
     
         for (int counter = 1; counter <= n; counter++) {
-            sum += n;
-            System.out.println(counter);
+            sum += counter;
+            
         }
+
+        System.out.println(sum);
         
     }
 }
