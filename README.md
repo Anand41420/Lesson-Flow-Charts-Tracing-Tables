@@ -221,6 +221,8 @@ public class Odds extends ConsoleProgram {
 
 Create a **flowchart, tracing table, and the code** for each problem.
 
+---
+
 ### Problem #1: Conversion Tables
 Write a program that converts kilometers to miles from 10 to 100 km, every 10km (1km = 0.621371mi).
 
@@ -239,6 +241,8 @@ Write a program that converts kilometers to miles from 10 to 100 km, every 10km 
 ```
 
 **NOTE: Complete the flowchart and tracing tables in the Google Doc provided in Google Classroom**
+
+---
 
 ### Problem #2: Calculating Totals
 Given a number n, calculate the sum of the numbers from 1 to n.
