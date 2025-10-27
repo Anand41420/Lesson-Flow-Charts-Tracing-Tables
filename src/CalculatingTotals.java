@@ -13,6 +13,7 @@ public class CalculatingTotals extends ConsoleProgram {
     
         for (int counter = 1; counter <= n; counter += 1) {
             counter += n;
+            System.out.println(counter);
         }
         
     }
