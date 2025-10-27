@@ -19,7 +19,6 @@ public class CalculatingTotals extends ConsoleProgram {
             
         }
 
-        System.out.println(sum);
         
     }
 }
