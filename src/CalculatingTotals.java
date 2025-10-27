@@ -9,4 +9,3 @@ public class CalculatingTotals extends ConsoleProgram {
 
     }
 }
-0
