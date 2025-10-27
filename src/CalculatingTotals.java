@@ -8,11 +8,13 @@ public class CalculatingTotals extends ConsoleProgram {
 
     public void run() {
 
-    int n = readInt("Enter a value n: ");
+        int n = readInt("Enter a value n: ");
+
+        int sum = 0;
 
     
-        for (int counter = 1; counter <= n; counter += 1) {
-            counter += n;
+        for (int counter = 1; counter <= n; counter++) {
+            sum += n;
             System.out.println(counter);
         }
         
