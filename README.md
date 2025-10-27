@@ -1,24 +1,35 @@
-# ICS3U Base Template for Java Programming
-This repository is a starter for ICS3U assignments. 
+# Practice Problems: `For` Loops, Flow Charts & Tracing Tables
 
-For a guide on using GitHub with Visual Studio Code, click [here](https://github.com/SACHSTech/Using-GitHub).
+Create a **flowchart, tracing table, and the code** for each problem.
 
-## Includes
-- ConsoleProgram setup for CodeHS-style helper input/output methods
-- Processing starter code (`Sketch.java`)
-- VS Code launch configurations for running console and graphics programs
+## Problem #1: Conversion Tables
+Write a program that converts kilometers to miles from 10 to 100 km, every 10km (1km = 0.621371mi).
 
-## Getting Started
-1. Clone this repo in VS Code.
-2. Open the `src` folder.
-3. Edit `Main.java` (or create new files that extend `ConsoleProgram`) for text-based programs.
-4. Edit `Sketch.java` to write programs with Processing graphics.
+#### Example Runs:
+```
+10km --> 6.21371mi
+20km --> 12.42742mi
+30km --> 18.64113mi
+40km --> 24.85484mi
+50km --> 31.068550000000002mi
+60km --> 37.28226mi
+70km --> 43.49597mi
+80km --> 49.70968mi
+90km --> 55.92339mi
+100km --> 62.137100000000004mi
+```
 
-## Running Your Programs
-Use the **Run and Debug panel** (on the left sidebar) to launch programs.  
-   - Select **Launch Console Program** when running text-based programs (e.g., `Main.java`, `MyProgram.java`, etc.).  
-   ![screenshot](.media/01.png)
+**NOTE: Complete the flowchart and tracing tables in the Google Doc provided in Google Classroom**
 
-   - Select **Launch Processing Sketch** when running graphics assignments (`Sketch.java`).  
-   ![screenshot](.media/02.png)
-   - Avoid using the Play ▶ button in the editor toolbar (see top-right corner). It always repeats the previous successful launch config and may run the wrong one.
+## Problem #2: Calculating Totals
+Given a number n, calculate the sum of the numbers from 1 to n.
+
+In this problem, the sum that we are trying to calculate is known as an accumulator variable, in that we build up, or accumulate, a final value, piece by piece.  Accumulator variables are often used with a loop structure to compute totals.
+
+**Pseudocode for using an Accumulator variable:**
+Initialize the accumulator variable
+Loop until final result is reached
+	update the value of the accumulator variable
+output accumulator
+
+The key to the accumulator variable is that when we update it, we **BUILD ON TOP **of the existing value.
