@@ -11,7 +11,9 @@ public class CalculatingTotals extends ConsoleProgram {
     int n = readInt("Enter a value n: ");
 
     
-
+        for (int counter = 1; counter <= n; counter += 1) {
+            
+        }
         
     }
 }
