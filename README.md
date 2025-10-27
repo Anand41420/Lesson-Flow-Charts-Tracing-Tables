@@ -138,8 +138,15 @@ Let’s say the user entered 5 for `num`:
 |       | 5         | true             | 5      |
 |       | 6         | false            |        |
 
-### Example #4: Print the Odds
+## Practice Problems: `For` Loops, Flow Charts & Tracing Tables
+
+Create a **flowchart, tracing table, and the code** for each problem.
+
+---
+### Problem #1: Print the Odds
 Write a program that prints the odd nubmers from 1 to 15.
+
+Open each one to see the solutions.
 <details>
 <summary><b>Flow Chart:</b></summary>
 <img src=".media/10.png" alt="Example4Answer">
@@ -217,13 +224,9 @@ public class Odds extends ConsoleProgram {
 
 </details>
 
-## Practice Problems: `For` Loops, Flow Charts & Tracing Tables
-
-Create a **flowchart, tracing table, and the code** for each problem.
-
 ---
 
-### Problem #1: Conversion Tables
+### Problem #2: Conversion Tables
 Write a program that converts kilometers to miles from 10 to 100 km, every 10km (1km = 0.621371mi).
 
 #### Example Runs:
@@ -244,7 +247,7 @@ Write a program that converts kilometers to miles from 10 to 100 km, every 10km 
 
 ---
 
-### Problem #2: Calculating Totals
+### Problem #3: Calculating Totals
 Given a number n, calculate the sum of the numbers from 1 to n.
 
 In this problem, the sum that we are trying to calculate is known as an accumulator variable, in that we build up, or accumulate, a final value, piece by piece.  Accumulator variables are often used with a loop structure to compute totals.
