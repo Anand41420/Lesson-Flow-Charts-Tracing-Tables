@@ -27,9 +27,11 @@ Given a number n, calculate the sum of the numbers from 1 to n.
 In this problem, the sum that we are trying to calculate is known as an accumulator variable, in that we build up, or accumulate, a final value, piece by piece.  Accumulator variables are often used with a loop structure to compute totals.
 
 **Pseudocode for using an Accumulator variable:**
+```
 Initialize the accumulator variable
 Loop until final result is reached
-	update the value of the accumulator variable
-output accumulator
+	Update the value of the accumulator variable
+Output accumulator
+```
 
-The key to the accumulator variable is that when we update it, we **BUILD ON TOP **of the existing value.
+The key to the accumulator variable is that when we update it, we **BUILD ON TOP** of the existing value.
