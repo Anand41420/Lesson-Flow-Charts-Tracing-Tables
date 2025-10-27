@@ -1,5 +1,6 @@
 /**
- * Template for programs with console text output.
+ * For Loops Practice Problem
+ *
  * @author Your Name
  */
 public class ConversionTables extends ConsoleProgram {
