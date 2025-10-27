@@ -6,6 +6,8 @@
 public class ConversionTables extends ConsoleProgram {
     @Override
     public void run() {
-        
+        for (int km = 10; km <=100; km += 10){
+            
+        }
     }
 }
